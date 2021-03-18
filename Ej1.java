@@ -11,11 +11,11 @@ public class Ej1 {
 		
 		
 			do {
-				System.out.println("¿Qué nota tiene?");	
+				System.out.println("NOTA:")	
 				nota=teclado.nextInt();
 				
 				if (nota<0 | nota>10) {
-					System.out.println("Esa nota no vale,¿Qué nota tiene??");
+					System.out.println("Esa nota no vale,Â¿QuÃ© nota tiene??");
 					nota=teclado.nextInt();
 				}
 				notamed=notamed+nota;
